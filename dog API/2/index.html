@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog API Example</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section id="container">
+        <h1>Dog API assignment</h1>
+
+        <div id="input"></div>
+        <form id="js-form">
+            <div class="form-group">
+            <label for="input-number">Input Number</label>
+            <input type="text"
+                    id="input-number"
+                    placeholder="3"
+                    required
+            />
+            </div>
+            <div class="button">
+            <input type="submit" 
+                    id="get"
+                    value="submit"
+            />
+            </div>
+        
+        <div class="results hidden">
+            <h2>Look at this dog!</h2>
+        </div>
+        </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
